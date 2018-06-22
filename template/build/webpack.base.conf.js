@@ -44,7 +44,8 @@ module.exports = {
       // 'vue$': 'vue/dist/vue.esm.js',
       {{/if_eq}}
       'vue': 'mpvue',
-      '@': resolve('src')
+      '@': resolve('src'),
+      '#': resolve('static')
     },
     symlinks: false,
     aliasFields: ['mpvue', 'weapp', 'browser'],
